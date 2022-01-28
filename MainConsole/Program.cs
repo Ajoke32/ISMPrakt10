@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace MainConsole
 {
     class Program
@@ -7,6 +8,7 @@ namespace MainConsole
         static void Main(string[] args)
         {
             
+           
         }
     }
 }
