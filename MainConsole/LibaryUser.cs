@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainConsole
 {
-    class LibaryUser:Human
+   public class LibaryUser:Human
     {
         
         public int NumberTicket { get; set;}

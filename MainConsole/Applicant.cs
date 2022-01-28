@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainConsole
 {
-    class Applicant:Human
+   public class Applicant:Human
     {
         public ZNOpoint Balls {get;set;}
         public int EducationDocument { get; set;}

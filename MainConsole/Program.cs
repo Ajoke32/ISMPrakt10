@@ -14,7 +14,7 @@ namespace MainConsole
                 "Zhytomyr gymnasium №5");
             int sumballs = applicant.GetSumBalls();
             Student student = new Student("Anton", "Golovatyk", new DateTime(2003, 9, 14),
-                "2","IPZ-21-1","Software Engineering","Zhytomyr polytechnic");
+                2,"IPZ-21-1","Software Engineering","Zhytomyr polytechnic");
             string studentinfo = student.GetGroupAndCourse();
             Lecturer lecturer = new Lecturer("Denis", "Logvinov", new DateTime(1997, 10, 9),
                 "Teacher", "Software Engineering", "Zhytomyr polytechnic");

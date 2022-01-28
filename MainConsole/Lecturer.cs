@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainConsole
 {
-    class Lecturer:Human
+   public class Lecturer:Human
     {
        
         public string Position { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainConsole
 {
-    class ZNOpoint
+    public class ZNOpoint
     {
         public int FirstBalls { get; set; }
         public int SecondBalls { get; set; }

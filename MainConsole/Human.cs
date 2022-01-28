@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainConsole
 {
-    class Human
+    public class Human
     {
         public string FirstName { get; set; }
         public string Lastname { get; set; }
