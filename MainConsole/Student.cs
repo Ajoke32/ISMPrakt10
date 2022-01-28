@@ -27,7 +27,7 @@ namespace MainConsole
         public string GetGroupAndCourse()
         {
             
-            string a = $"{Group}(курс {Course})";
+            string a = $"{Group}(course {Course})";
             return a;
         }
     }

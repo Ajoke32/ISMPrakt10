@@ -22,7 +22,7 @@ namespace MainConsole
         }
         public string GetPosAndDep()
         {
-            string positions =$"Посaда{Position}(Кафедра:{Department})";
+            string positions =$"Position:{Position}(Department:{Department})";
 
             return positions;
 

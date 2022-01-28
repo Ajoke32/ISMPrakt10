@@ -22,8 +22,8 @@ namespace MainConsole
         }
         public string GetNumbAndDepos()
         {
-            string number = $"Номер білету:{NumberTicket.ToString()}" +
-                $"(pозмір Депозиту:{SizeDeposit.ToString()})";
+            string number = $"Ticket number:{NumberTicket.ToString()}" +
+                $"(Size Deposit:{SizeDeposit.ToString()})";
             
             return number;
         }
