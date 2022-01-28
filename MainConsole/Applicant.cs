@@ -19,5 +19,11 @@ namespace MainConsole
             EducationDocument = educationDoc;
             NameInstitution = nameInstitution;
         }
+        public int GetSumBalls()
+        {
+            int sum;
+           sum = Balls.FirstBalls + Balls.SecondBalls + Balls.ThirdBalls;
+            return sum;
+        }
     }
 }
